@@ -2,7 +2,6 @@ package com.example.agroltec.Model;
 
 import java.util.List;
 
-import com.example.agroltec.Enum.tipoUsuario;
 import com.example.agroltec.Model.tienda;
 
 import jakarta.persistence.CascadeType;
