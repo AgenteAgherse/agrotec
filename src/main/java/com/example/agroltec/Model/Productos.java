@@ -29,4 +29,7 @@ public class Productos {
 
     @Column(name = "descripcion")
     private String description;
+
+    @Column(name="imagen")
+    private String imagen;
 }
