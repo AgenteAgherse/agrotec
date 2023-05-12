@@ -6,12 +6,13 @@ import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
 import org.springframework.web.bind.annotation.CrossOrigin;
+import org.springframework.web.servlet.config.annotation.CorsRegistry;
+import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 
-@CrossOrigin(origins = "*") //Hay un cruce entre frontend y backend por medio de esta anotación
 @EnableAutoConfiguration
 @EnableConfigurationProperties
 @SpringBootApplication
-public class AgroltecApplication implements CommandLineRunner{
+public class AgroltecApplication implements CommandLineRunner {
 
 	public static void main(String[] args) {
 		SpringApplication.run(AgroltecApplication.class, args);
@@ -21,4 +22,6 @@ public class AgroltecApplication implements CommandLineRunner{
 	public void run(String... args) throws Exception {
 		
 	}
+
+	
 }

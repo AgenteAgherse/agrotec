@@ -1,8 +1,6 @@
 package com.example.agroltec.Controller;
 
-import com.example.agroltec.Model.Factura;
 import com.example.agroltec.Model.Productos;
-import com.example.agroltec.Repository.FacturasRepository;
 import com.example.agroltec.Repository.ProductoRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.MediaType;
